@@ -1,0 +1,115 @@
+:host {
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+}
+.column-layout {
+  display: flex;
+  flex-direction: column;
+}
+.group {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  padding: 40px;
+  width: 240px;
+  min-width: 50px;
+  min-height: 50px;
+}
+.group_1 {
+  background-color: white;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  padding: 40px;
+  min-width: 50px;
+  min-height: 50px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.group_2 {
+  background-color: transparent;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  min-width: 50px;
+  min-height: 50px;
+}
+.row-layout {
+  display: flex;
+}
+.group_3 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+}
+.card {
+  height: max-content;
+  min-width: 210px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.group_4 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  min-width: 50px;
+  min-height: 50px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.group_5 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  padding: 40px 20px 0 0;
+  min-width: 50px;
+  min-height: 50px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.group_6 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  padding: 40px 0 0;
+  min-width: 50px;
+  min-height: 50px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.group_7 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  padding: 40px;
+  min-width: 280px;
+  min-height: 50px;
+}
+.content {
+  height: max-content;
+  min-width: min-content;
+}
+.grid {
+  min-height: 200px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.category-chart {
+  --x-axis-label-text-style: normal 400 14px Lato;
+  --y-axis-label-text-style: normal 400 14px Lato;
+  --x-axis-title-text-style: normal 400 14px Lato;
+  --y-axis-title-text-style: normal 400 14px Lato;
+  --title-text-style: normal 600 20px Lato;
+  min-height: 200px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
